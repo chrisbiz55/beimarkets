@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>carousel</title>
+    <!-- Bootstrap using CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bs3.css">
+    <!--The next two tags are optional, and are needed only to support Internet Explorer 8 & 9-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script type="text/javascript" src="js/temp.js"></script>
+</head>
+<body>
+   
+  <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="index.html">Home</a></li>
+  <li role="presentation"><a href="images.html">Images</a></li>
+  <li role="presentation"><a href="movingimages.html">MovingImages</a></li>
+</ul>
+<div class="container">Below are discount sales</div>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/home2.jpg" class="img-responsive center-block" alt="home 2" width="400" height="300">
+      <div class="carousel-caption">
+        <p>Luxury Homes for sale</p>
+        <p>We have homes for sale. Prices ranges from one million US Dollars to $4million US Dollars</p>
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/jacket6.jpg" class="img-responsive center-block" alt="jacket6 3" width="400" height="300">
+      <div class="carousel-caption">
+        <p> Jackets for sale</p>
+        ...
+      </div>
+    </div> 
+    <div class="item">
+      <img src="img/elephant4.jpg" class="img-responsive center-block" alt="elephant 4" width="400" height="300">
+      <div class="carousel-caption">
+        <p>Baby elephant for sale</p>
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <!--The following is normally placed at the end of your body and are used for Bootstraps jQuery and javaScript   
+    plugins.  They are placed at the end of your body for faster loading of your html document.-->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>    
+
+    
+  
+    
+
+    </body>
+</html>
